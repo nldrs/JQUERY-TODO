@@ -106,7 +106,6 @@
         return true;
     }
     function init() {
-         // store.clearAll();
         task_list=store.get('task_item')||[];
         refresh();
         check_remind();
